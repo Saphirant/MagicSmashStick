@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Static">
+      <UniqueIdentifier>{b465d506-c32e-42bb-b5b9-6633544cc520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sync">
+      <UniqueIdentifier>{b37adfa7-79ca-425d-b03e-96ab48ef93a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{4014afd1-2d2e-427d-93df-4eb98f690366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spell">
+      <UniqueIdentifier>{f2c842aa-af9a-491b-bdd6-46aae5139f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{b0cdd357-1d79-410b-b750-bfe0fb28e007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync.cpp">
+      <Filter>Source Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Plateforme.cpp">
+      <Filter>Source Files\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionList.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellList.cpp">
+      <Filter>Source Files\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sync.h">
+      <Filter>Source Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Plateforme.h">
+      <Filter>Source Files\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionList.h">
+      <Filter>Source Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Source Files\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellList.h">
+      <Filter>Source Files\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
